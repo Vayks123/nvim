@@ -42,4 +42,8 @@ require("lazy").setup({
     dependencies = { 'nvim-tree/nvim-web-devicons' }
 },
 { 'akinsho/toggleterm.nvim', version = "*", config = true },
+{
+  "stevearc/conform.nvim",
+  event = { "BufReadPre", "BufNewFile" },
+},
 })
