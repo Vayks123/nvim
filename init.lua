@@ -16,4 +16,4 @@ require("plugins.autopairs")
 require("plugins.nvim-comment")
 require("plugins.gitsigns")
 require("plugins.lualine")
-
+require("plugins.toggleterm")
