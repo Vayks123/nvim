@@ -37,4 +37,9 @@ require("lazy").setup({
 {"akinsho/bufferline.nvim"},
 {"terrortylor/nvim-comment"},
 {"lewis6991/gitsigns.nvim"},
+{"nvim-tree/nvim-web-devicons"},
+{
+    'nvim-lualine/lualine.nvim',
+    dependencies = { 'nvim-tree/nvim-web-devicons' }
+}
 })

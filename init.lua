@@ -15,3 +15,5 @@ require("plugins.null_ls")
 require("plugins.autopairs")
 require("plugins.nvim-comment")
 require("plugins.gitsigns")
+require("plugins.lualine")
+
