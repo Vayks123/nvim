@@ -16,4 +16,10 @@ require("conform").setup({
 	},
 })
 
-
+vim.keymap.set("n", "<leader>mp", function()
+	conform.format({
+		lsp_fallback = true,
+		async = false,
+		timeout_ms = 500,
+	})
+end, { desc = "Format file or range" })
