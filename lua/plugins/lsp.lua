@@ -6,6 +6,8 @@ lspconfig.bashls.setup{}
 lspconfig.clangd.setup{}
 lspconfig.docker_compose_language_service.setup{}
 lspconfig.dockerls.setup{}
+lspconfig.terraformls.setup{}
+lspconfig.groovyls.setup{}
 
 -- Global mappings.
 -- See `:help vim.diagnostic.*` for documentation on any of the below functions
