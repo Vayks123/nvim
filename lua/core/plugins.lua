@@ -47,4 +47,5 @@ require("lazy").setup({
 	},
 	{ "akinsho/toggleterm.nvim", version = "*", config = true },
 	{ "stevearc/conform.nvim" },
+	{ "mfussenegger/nvim-lint" },
 })
