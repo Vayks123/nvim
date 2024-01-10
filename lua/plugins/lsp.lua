@@ -2,7 +2,10 @@
 local lspconfig = require('lspconfig')
 lspconfig.pyright.setup {}
 lspconfig.ansiblels.setup{}
-lspconfig..bashls.setup{}
+lspconfig.bashls.setup{}
+lspconfig.clangd.setup{}
+lspconfig.docker_compose_language_service.setup{}
+lspconfig.dockerls.setup{}
 
 -- Global mappings.
 -- See `:help vim.diagnostic.*` for documentation on any of the below functions
