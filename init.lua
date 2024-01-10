@@ -1,6 +1,6 @@
 --Basic
-require('core.plugins')
-require('core.mappings')
+require("core.plugins")
+require("core.mappings")
 require("core.colors")
 require("core.configs")
 
@@ -17,3 +17,4 @@ require("plugins.gitsigns")
 require("plugins.lualine")
 require("plugins.toggleterm")
 require("plugins.conform")
+require("plugins.nvim-lint")
