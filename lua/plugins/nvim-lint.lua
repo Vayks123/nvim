@@ -4,19 +4,8 @@ require("lint").linters_by_ft = {
 	c = { "cpplint" },
 	cpp = { "cpplint" },
 	yaml = { "yamllint" },
-	lua = { "luacheck" },
 	Jenkinsfile = { "npm_groovy_lint" },
 	terraform = { "terraform_validate", "tfsec" },
 	tf = { "terraform_validate", "tfsec" },
 	zsh = { "zsh" },
 }
-
-vim.api.nvim_create_autocmd({ "BufWritePost" }, {
-	callback = function()
-		require("lint").try_lint()
-	end,
-})
-
-vim.keymap.set("n", "<leader>l", function()
-	lint.try_lint()
-end, { desc = "Trigger linting for current file" })
