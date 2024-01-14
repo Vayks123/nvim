@@ -50,4 +50,5 @@ require("lazy").setup({
 	{ "mfussenegger/nvim-lint" },
 	{ "is0n/jaq-nvim" },
     -- {"folke/neodev.nvim"},
+    {"norcalli/nvim-colorizer.lua"},
 })
