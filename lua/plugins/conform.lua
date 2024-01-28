@@ -2,7 +2,7 @@ require("conform").setup({
 	formatters_by_ft = {
 		c = { "clang_format" },
 		cpp = { "clang_format" },
-		-- python = { "isort", "black" },
+		python = { "isort", "black" },
 		json = { "jq" },
 		sh = { "shellcheck", "shellharden" },
 		yaml = { "yamlfix", "yamlfmt" },
